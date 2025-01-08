@@ -1,0 +1,39 @@
+Functional requirements:
+
+    Management of user profiles:
+        Registration/authorization of students and administration.
+        Ability to edit personal information.
+
+    Management of dormitories:
+        Creating/editing information about dormitories.
+        Tracking the availability of free rooms.
+
+    Accommodation management:
+        Submitting an application for accommodation.
+        Automatic room assignment or manual room selection by the administrator.
+
+    Payment management:
+        Creating invoices for accommodation.
+        Tracking the status of payments by students.
+
+    Tracking of technical requests:
+        Submission of a room repair request.
+        Assigning a technician to fulfill the request.
+
+    Reporting and analytics:
+        Generating reports on room occupancy, unpaid bills.
+
+Non-functional requirements:
+
+    Performance:
+        The system should support simultaneous work of up to 100 users.
+
+    Security:
+        Ensure authorization and differentiation of access rights (administrator, student).
+        Protection of student data and payment history.
+
+    Scalability:
+        Ability to add new dormitories without significant changes to the system.
+
+    Ease of use:
+        Intuitive interface with a minimum number of clicks to perform basic operations.
